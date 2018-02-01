@@ -1,0 +1,73 @@
+﻿生成启动时间为 2018/1/5 10:53:34。
+     1>项目“E:\AudioProject\mdct\mdct\mdct.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\mdct.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt fft.c main.c mdct.c wavread.c wavwrite.c
+         wavwrite.c
+     1>e:\audioproject\mdct\mdct\wavwrite.c(45): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(314) : 参见“setmode”的声明
+     1>e:\audioproject\mdct\mdct\wavwrite.c(45): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(723) : 参见“fileno”的声明
+     1>e:\audioproject\mdct\mdct\wavwrite.c(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         wavread.c
+     1>e:\audioproject\mdct\mdct\wavread.c(132): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         mdct.c
+     1>e:\audioproject\mdct\mdct\mdct.c(11): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\audioproject\mdct\mdct\mdct.c(15): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(44): warning C4305: “*=”: 从“double”到“float”截断
+     1>e:\audioproject\mdct\mdct\mdct.c(45): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(50): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(60): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(79): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(87): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(88): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(89): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(90): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(149): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(150): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(185): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(198): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(199): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(200): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(201): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\mdct.c(318): warning C4101: “j”: 未引用的局部变量
+         main.c
+     1>e:\audioproject\mdct\mdct\main.c(80): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\main.c(35): warning C4101: “diff”: 未引用的局部变量
+         fft.c
+     1>e:\audioproject\mdct\mdct\fft.c(185): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\fft.c(186): warning C4244: “=”: 从“double”转换到“fftfloat”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\fft.c(187): warning C4244: “=”: 从“double”转换到“fftfloat”，可能丢失数据
+     1>e:\audioproject\mdct\mdct\fft.c(232): warning C4013: “memset”未定义；假设外部返回 int
+     1>e:\audioproject\mdct\mdct\fft.c(236): warning C4013: “memcpy”未定义；假设外部返回 int
+     1>e:\audioproject\mdct\mdct\fft.c(249): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mdct.exe.embed.manifest.res" Debug\mdct_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\AudioProject\mdct\Debug\mdct.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mdct.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\AudioProject\mdct\Debug\mdct.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\AudioProject\mdct\Debug\mdct.lib" /MACHINE:X86 Debug\mdct.exe.embed.manifest.res
+         Debug\fft.obj
+         Debug\main.obj
+         Debug\mdct.obj
+         Debug\wavread.obj
+         Debug\wavwrite.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\mdct.exe.embed.manifest" /manifest Debug\mdct.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         mdct.vcxproj -> E:\AudioProject\mdct\Debug\mdct.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\mdct.unsuccessfulbuild”。
+         正在对“Debug\mdct.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\AudioProject\mdct\mdct\mdct.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.17
